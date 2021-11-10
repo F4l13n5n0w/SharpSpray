@@ -7,9 +7,9 @@ using System.Threading;
 
 namespace SharpSpray
 {
-    class SharpSpray
+    public class SharpSpray
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
 
             string LogonServer = Environment.GetEnvironmentVariable("LOGONSERVER").TrimStart('\\');
